@@ -38,7 +38,7 @@ The load event handler triggers an action to happen when the element it's called
   <img src="https://s3.amazonaws.com/after-school-assets/minion-tongue.jpg">
 ```
 
-JS:
+JS:  
 ```js
 $('img').on('load', function(){
   //actions you want to happen
