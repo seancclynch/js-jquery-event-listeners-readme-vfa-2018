@@ -20,14 +20,17 @@ function frameIt() {
 function pressIt() {
   // bind keydown to input field, alert when press G key.
   $('input').on('keydown', function(key){
-    if(key.which == 83){
-        alert('s was pressed');
+    if(key.which == 71){
+        alert('g was pressed');
     }
   });
 }
 
 function submitIt() {
   // bind submit to form alerts "Your form is going to be submitted now."
+  $('form').on('submit', function() {
+    alert('Your form is going to be submitted now.');
+  });
 }
 
 });
