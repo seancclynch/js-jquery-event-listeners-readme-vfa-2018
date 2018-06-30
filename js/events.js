@@ -20,11 +20,10 @@ function frameIt() {
 function pressIt() {
   // bind keydown to input field, alert when press G key.
   $('input').on('keydown', function(key){
-  if(key.which == 83){
-      alert('s was pressed');
-  }
-});
-  })
+    if(key.which == 83){
+        alert('s was pressed');
+    }
+  });
 }
 
 function submitIt() {
