@@ -3,7 +3,7 @@
 $(document).ready(function(){
 
 // call functions here
-function getIt() {
+ window.getIt() {
   // bind click to p tag, on click, alert('Hey!');
   $('p').on("click", function(){
     alert('Hey!');
