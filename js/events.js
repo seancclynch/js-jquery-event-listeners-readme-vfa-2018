@@ -3,6 +3,13 @@
 $(document).ready(function(){
 
 // call functions here
+getIt();
+frameIt();
+pressIt();
+submitIt();
+
+});
+
 function getIt() {
   // bind click to p tag, on click, alert('Hey!');
   $('p').on("click", function(){
@@ -32,5 +39,3 @@ function submitIt() {
     alert('Your form is going to be submitted now.');
   });
 }
-
-});
