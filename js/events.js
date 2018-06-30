@@ -13,12 +13,15 @@ function getIt() {
 function frameIt() {
   // bind load event that adds class 'tasty' to image.
   $('img').on("load", function(){
-    $('img').
+    $('img').addClass('tasty');
   });
 }
 
 function pressIt() {
   // bind keydown to input field, alert when press G key.
+  $('input').on('keydown', function(){
+    if ()
+  })
 }
 
 function submitIt() {
