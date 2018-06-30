@@ -12,8 +12,8 @@ function getIt() {
 
 function frameIt() {
   // bind load event that adds class 'tasty' to image.
-  $('p').on("load", function(){
-    
+  $('img').on("load", function(){
+    $('img').
   });
 }
 
